@@ -1,0 +1,94 @@
+@font-face {
+    font-family: FiraGO-Bold;
+    src: url(atkinson-hyperlegible-bold-102-webfont.woff2);
+}
+@font-face {
+    font-family: FiraGO-Regular;
+    src: url(atkinson-hyperlegible-regular-102-webfont\ \(4\).woff2);
+}
+body {
+    background-color: #f3eee4;
+    margin:0;
+}
+h1{
+    font-size: 70px;
+    font-family: FiraGO-Bold;
+    
+    color: #1c2334;
+ }
+h2 {
+    font-size: 45px;
+    color: #1c2334;
+    font-family: FiraGO-Bold;
+    margin-bottom: 5px;
+ }
+p{
+    font-size: 20px;
+    color: #1c2334;
+    font-family: FiraGo-Regular;
+    padding-bottom: 17px;
+    
+ }
+span{
+    font-size: 20px;
+    color: #bb1450;
+    font-family: FiraGO-Bold;
+   
+    
+ }
+ .card_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+ }
+ .card {
+    background-color: #e5bf55;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+ }
+ .btn{ 
+    background-color:  #1c2334;
+    border:2px solid #bb1450;
+    border-radius: 25px;
+    width: 240px;
+    height: 45px;
+    font-family: FiraGO-Bold;
+    font-size: 18px;
+    color:white;
+    margin-bottom: 20px;
+ }
+ .btn1{
+    background-color:  #e5bf55 ;
+    border:2px solid #1c2334;
+    border-radius: 25px;
+    width: 240px;
+    height: 45px;
+    font-family: FiraGO-Bold;
+    font-size: 18px;
+    color:#1c2334;
+    margin-bottom: 20px;
+ }
+h3{
+    font-family: FiraGO-Bold;
+    font-size: 55px;
+    text-decoration-color: #bb1450;
+    margin-top: 20px;
+}
+ .text {
+    margin-left: 80px;
+ }
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+ }
+nav > a {
+    color:#1c2334;
+    text-decoration: none;
+    font-family: FiraGO-Regular;
+    font-size: 18px;
+}
